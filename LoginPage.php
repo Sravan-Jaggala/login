@@ -41,23 +41,20 @@ button.signup {
 	outline: none;
 	font-family:calibri;
 	font-size:18px;
-
-	position:relative;
+	position:fixed;
 	left:1250px;
-	top:2px;
+	top:70px;
 
 }
 button.signup:hover {
+border:none;
 	background-color:black;
-	color:#f7d82c;
-	border:none;
 	height:30px;
 	width:100px;
 	outline: none;
 	font-family:calibri;
 	font-size:18px;
-	margin-right:auto;
-    margin-left:1150px;
+	color:#f7d82c;
 }
 /* .header {
     height:50px;
