@@ -4,7 +4,7 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
-<link rel="stylesheet" href="C:/Users/v7110669/Desktop/Angular JS Workspace/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="C:/Users/srava_000/Desktop/Workspace/font-awesome-4.7.0/css/font-awesome.min.css">
 <style type="text/css">
 input:focus {
 	outline:none;
@@ -41,8 +41,11 @@ button.signup {
 	outline: none;
 	font-family:calibri;
 	font-size:18px;
-	margin-right:auto;
-    margin-left:1150px;
+
+	position:relative;
+	left:1250px;
+	top:2px;
+
 }
 button.signup:hover {
 	background-color:black;
@@ -64,10 +67,28 @@ button.signup:hover {
     margin:0px auto;
 } */
 .header{
-color:#fff!important;
+/* color:#fff!important;
 background-color:#f7d82c!important;
 height:50px;
-width:auto;
+width:auto; */
+background-color:#f7d82c;
+    position: fixed;
+    height: 60px;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+.footer {
+  position: absolute;
+  height:15px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #f7d82c;
+  text-align: right;
+  font-size:10px;
+  font-family:calibri;
 }
 h1{
 font-family:Impact, Charcoal, sans-serif;
@@ -79,7 +100,6 @@ padding-left:10px;
 border-color:#f7d82c;
 height:32px;
 width:32px;
-padding-right:-10px;
 }
 
 </style>
@@ -127,6 +147,9 @@ padding-right:-10px;
 </div>
 </div>
 </center>
+<div class="footer">
+all rights are reserved by sravan.jaggala @2016
+</div>
 </body>
 
 </html>
